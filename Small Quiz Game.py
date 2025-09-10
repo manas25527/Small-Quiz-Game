@@ -24,8 +24,10 @@ while (i<= 4):
             if ansipt == "A" or ansipt == "a":
                 print("Correct Answer")
                 money += 1000
-            else:
+            elif ansipt == "B" or ansipt == "C" or ansipt == "D" or ansipt == "b" or ansipt == "c" or ansipt == "d":
                 print("Wrong Answer")
+            else:
+                print("Invalid Input")
 
         elif dplq1 == ques[1]:
             for i in range (0,4):
@@ -34,8 +36,10 @@ while (i<= 4):
             if ansipt == "D" or ansipt == "d":
                 print("Correct Answer")
                 money += 1000
-            else:
+            elif ansipt == "B" or ansipt == "C" or ansipt == "A" or ansipt == "b" or ansipt == "c" or ansipt == "a":
                 print("Wrong Answer")
+            else:
+                print("Invalid Input")
 
         elif dplq1 == ques[2]:
             for i in range (0,4):
@@ -44,8 +48,10 @@ while (i<= 4):
             if ansipt == "B" or ansipt == "b":
                 print("Correct Answer")
                 money += 1000
-            else:
+            elif ansipt == "A" or ansipt == "C" or ansipt == "D" or ansipt == "a" or ansipt == "c" or ansipt == "d":
                 print("Wrong Answer")
+            else:
+                print("Invalid Input")
 
         elif dplq1 == ques[3]:
             for i in range (0,4):
@@ -54,8 +60,10 @@ while (i<= 4):
             if ansipt == "C" or ansipt == "c":
                 print("Correct Answer")
                 money += 1000
-            else:
+            elif ansipt == "B" or ansipt == "A" or ansipt == "D" or ansipt == "b" or ansipt == "a" or ansipt == "d":
                 print("Wrong Answer")
+            else:
+                print("Invalid Input")
 
         elif dplq1 == ques[4]:
             for i in range (0,4):
@@ -64,8 +72,10 @@ while (i<= 4):
             if ansipt == "A" or ansipt == "a":
                 print("Correct Answer")
                 money += 1000
-            else:
+            elif ansipt == "B" or ansipt == "C" or ansipt == "D" or ansipt == "b" or ansipt == "c" or ansipt == "d":
                 print("Wrong Answer")
+            else:
+                print("Invalid Input")
 
         print(f"You earned: Rs.{money}")
         ques.remove(dplq1) #Once the question is printed it will not print that question again
@@ -83,4 +93,3 @@ while (i<= 4):
     else:
         print("Amount Won", money)
         break
-    
