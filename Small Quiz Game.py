@@ -26,6 +26,7 @@ while (i<= 4):
                 money += 1000
             elif ansipt == "B" or ansipt == "C" or ansipt == "D" or ansipt == "b" or ansipt == "c" or ansipt == "d":
                 print("Wrong Answer")
+                break
             else:
                 print("Invalid Input")
 
@@ -38,6 +39,7 @@ while (i<= 4):
                 money += 1000
             elif ansipt == "B" or ansipt == "C" or ansipt == "A" or ansipt == "b" or ansipt == "c" or ansipt == "a":
                 print("Wrong Answer")
+                break
             else:
                 print("Invalid Input")
 
@@ -50,6 +52,7 @@ while (i<= 4):
                 money += 1000
             elif ansipt == "A" or ansipt == "C" or ansipt == "D" or ansipt == "a" or ansipt == "c" or ansipt == "d":
                 print("Wrong Answer")
+                break
             else:
                 print("Invalid Input")
 
@@ -62,6 +65,7 @@ while (i<= 4):
                 money += 1000
             elif ansipt == "B" or ansipt == "A" or ansipt == "D" or ansipt == "b" or ansipt == "a" or ansipt == "d":
                 print("Wrong Answer")
+                break
             else:
                 print("Invalid Input")
 
@@ -74,6 +78,7 @@ while (i<= 4):
                 money += 1000
             elif ansipt == "B" or ansipt == "C" or ansipt == "D" or ansipt == "b" or ansipt == "c" or ansipt == "d":
                 print("Wrong Answer")
+                break
             else:
                 print("Invalid Input")
 
